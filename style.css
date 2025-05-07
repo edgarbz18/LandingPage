@@ -1,14 +1,62 @@
 * {
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    margin: 0;
 }
 
-body {
+html, body {
     display: flex;
+    flex: 1;
     flex-direction: column;
+    height: 100%;
 }
 
-header {
+.menu {
     display: flex;
+    background-color: cornflowerblue;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    gap: 50px;
+    margin: 5px 60px;
+}
+
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    padding: 30px;
+    margin: 30px;
+    font-size: 12px;
+    width: 200px;
+}
+
+footer {
+    display: flex;
+    flex: 1;
+}
+
+.nosotros {
+    display: flex;
+    align-items: flex-end;
+}
+
+.contacto {
+    display: flex;
+    align-items: flex-end;
 }
