@@ -28,35 +28,53 @@ html, body {
     margin: 5px 60px;
 }
 
-.contenido {
-    display: flex;
-    flex-wrap: wrap;
 
-}
 .body {
     display: flex;
+    flex: 1;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .card {
-    padding: 30px;
-    margin: 30px;
-    font-size: 12px;
-    width: 200px;
-}
-
-footer {
-    display: flex;
-    flex: 1;
+    width: 15%;
+    padding: 50px;
+    margin: 50px;
 }
 
 .nosotros {
     display: flex;
-    align-items: flex-end;
+    text-align: center;
+    width: 90%;
+}
+
+.nosotros, .parrafo {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.nosotros2 {
+    text-align: center;
+}
+
+img {
+    width: auto;
 }
 
 .contacto {
+    margin: 50px;
+    margin-bottom: 30px;
     display: flex;
-    align-items: flex-end;
+    justify-content: space-around;
 }
+
+.contacto1 {
+    width: 20%;
+}
+
+.siguenos {
+    width: 20%;
+}
+
+
+
