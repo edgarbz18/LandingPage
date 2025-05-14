@@ -3,16 +3,26 @@
     margin: 0;
 }
 
+body {
+    background: url(img/fondo.webp);
+    background-attachment: fixed;
+    color: white;
+}
+
 html, body {
     display: flex;
     flex: 1;
     flex-direction: column;
     height: 100%;
 }
+.logo   {
+    width: 300px;
+    height: 128px;
+}
 
 .menu {
     display: flex;
-    background-color: cornflowerblue;
+    background-color: lightskyblue;
     justify-content: space-between;
 }
 
@@ -20,6 +30,8 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
 }
 
 .link {
@@ -28,6 +40,9 @@ html, body {
     margin: 5px 60px;
 }
 
+#banner {
+    width: 100%;
+}
 
 .body {
     display: flex;
@@ -37,6 +52,7 @@ html, body {
 }
 
 .card {
+    text-align: center;
     width: 15%;
     padding: 50px;
     margin: 50px;
@@ -46,11 +62,16 @@ html, body {
     display: flex;
     text-align: center;
     width: 90%;
+    margin: 150px 50px;
 }
 
 .nosotros, .parrafo {
     margin-left: 70px;
     margin-right: 70px;
+}
+
+.parrafo {
+    padding: 50px 160px;
 }
 
 .nosotros2 {
@@ -62,19 +83,28 @@ img {
 }
 
 .contacto {
-    margin: 50px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.contacto1 {
-    width: 20%;
+    margin: 150px 50px;
 }
 
 .siguenos {
-    width: 20%;
+    margin: 150px 50px;
+    text-align: end;
 }
 
+ul {
+    display: flex;
+    justify-content: end;
+    padding: 50px 50px;
+    gap: 50px;
+    list-style-type: none;
+}
 
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+a {
+    text-decoration: none;
+}
