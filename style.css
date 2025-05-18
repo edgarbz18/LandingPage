@@ -6,6 +6,8 @@
 body {
     background: url(img/fondo.webp);
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     color: white;
 }
 
